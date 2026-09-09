@@ -2,7 +2,7 @@
 // 上层业务 Demo：仅调用 @midscene/web 官方公开 API，不修改任何 midscene 源码。
 import 'dotenv/config'; // 自动加载 .env 环境变量
 import { chromium, type Page } from 'playwright';
-import { PlaywrightAgent } from '@midscene/web/playwright';
+import { PlaywrightAgent } from '@midscene/web/playwright/agent';
 import { mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 
