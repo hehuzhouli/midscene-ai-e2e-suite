@@ -1,0 +1,26 @@
+# 依赖
+node_modules/
+
+# 环境变量（含模型 API Key，严禁提交）
+.env
+
+# 运行产物：报告目录、截图缓存
+output/
+midscene_run/
+
+# 截图缓存目录
+output/snap/
+output/cache/
+
+# 编译产物
+dist/
+
+# 日志
+*.log
+npm-debug.log*
+
+# 系统/编辑器
+.DS_Store
+.idea/
+.vscode/
+*.swp
